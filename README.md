@@ -53,12 +53,15 @@ You will be tasked with setting up a local instance of MedusaJS with a PostgreSQ
        - `updated_at`
 
 6. **API Endpoints**
-   - Create API endpoints for:
-     - Creating a new anamnesis form
-     - Adding sections to a form
-     - Adding questions to a section
-     - Retrieving a form template
-     - Submitting patient responses
+   - Create both `/admin` and `/store` endpoints for managing and retrieving forms.
+     - `/admin` Endpoints:
+       - Create a new anamnesis form
+       - Add sections to a form
+       - Add questions to a section
+       - Retrieve a form template for management
+     - `/store` Endpoints:
+       - Retrieve a form template for patient use
+       - Submit patient responses
 
 #### Part 3: Internationalization (Extra Task)
 7. **Internationalization**
@@ -75,6 +78,7 @@ You will be tasked with setting up a local instance of MedusaJS with a PostgreSQ
 - Correctness: The plugin works as intended, with proper CRUD operations for forms, sections, and questions.
 - Code Quality: Clean, readable, and maintainable code.
 - Design: Efficient and scalable data model design.
+- API Endpoints: Proper implementation of both `/admin` and `/store` endpoints.
 - Extra Task: Implementation of internationalization support.
 - Documentation: Clear instructions and well-documented code.
 
