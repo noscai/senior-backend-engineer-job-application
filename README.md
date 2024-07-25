@@ -59,6 +59,7 @@ You will be tasked with setting up a local instance of MedusaJS with a PostgreSQ
        - Add sections to a form
        - Add questions to a section
        - Retrieve a form template for management
+       - Delete forms, sections, and questions
      - `/store` Endpoints:
        - Retrieve a form template for patient use
        - Submit patient responses
@@ -68,6 +69,15 @@ You will be tasked with setting up a local instance of MedusaJS with a PostgreSQ
    - Implement internationalization support for anamnesis forms, sections, and questions.
    - Design your tables/models to include a `language_code` field for each text field or create separate tables to manage translations.
    - Ensure the frontend can request forms in the desired language.
+
+#### Part 4: Testing Requirements
+8. **Unit Tests**
+   - Write unit tests using Jest for all models and utility functions.
+   - Ensure comprehensive test coverage for functionality and edge cases.
+
+9. **Integration Tests**
+   - Write integration tests for API endpoints using Jest and Supertest.
+   - Ensure that endpoints behave correctly and data is properly handled.
 
 #### Submission
 - Provide a GitHub repository link with your MedusaJS project and `medusa-plugin-anamnesis` plugin.
@@ -80,6 +90,8 @@ You will be tasked with setting up a local instance of MedusaJS with a PostgreSQ
 - Design: Efficient and scalable data model design.
 - API Endpoints: Proper implementation of both `/admin` and `/store` endpoints.
 - Extra Task: Implementation of internationalization support.
+- Unit Tests: Comprehensive and effective unit tests.
+- Integration Tests: Thorough and reliable integration tests.
 - Documentation: Clear instructions and well-documented code.
 
 Good luck, and we look forward to reviewing your submission!
